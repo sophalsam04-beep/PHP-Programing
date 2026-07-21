@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms</title>
+</head>
+<body>
+    
+    <input type="text" required>
+
+<input type="email" required>
+
+<input type="password" minlength="8">
+
+<input type="number" min="1" max="100">
+
+<input type="text" maxlength="50">
+
+<input type="text" pattern="[A-Za-z ]+">
+
+<form>
+    <label>Username:</label><br>
+    <input type="text" name="username">
+</form>
+
+
+<label>Password:</label><br>
+<input type="password" name="password">
+
+<label>Email:</label><br>
+<input type="email" name="email">
+
+<label>Age:</label><br>
+<input type="number" name="age">
+
+<label>Gender:</label><br>
+
+<input type="radio" name="gender" value="Male"> Male
+
+<input type="radio" name="gender" value="Female"> Female
+
+
+<label>Skills:</label><br>
+
+<input type="checkbox" name="skill[]" value="HTML"> HTML
+
+<input type="checkbox" name="skill[]" value="CSS"> CSS
+
+<input type="checkbox" name="skill[]" value="JavaScript"> JavaScript
+
+
+<label>Country:</label><br>
+
+<select name="country">
+    <option>Cambodia</option>
+    <option>Thailand</option>
+    <option>Vietnam</option>
+</select>
+
+<input type="file" name="photo">
+
+<label>Message:</label><br>
+
+<textarea rows="5" cols="30"></textarea>
+
+<input type="date">
+
+<input type="time">
+
+<input type="color">
+
+<input type="range" min="0" max="100">
+<input type="reset">
+
+
+
+</body>
+</html>
